@@ -1,0 +1,50 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(rgb(250, 237, 237), rgb(121, 121, 161));
+  background-attachment: fixed;
+}
+h3 {
+  text-align: center;
+  margin-top: 20vh;
+  border-style: groove;
+  border-radius: 40px;
+  width: 300px;
+  justify-self: center;
+  padding: 10px;
+  background-image: none;
+  background-color: whitesmoke;
+  box-shadow: rgba(160, 36, 36, 0.16) 0px 3px 6px,
+    rgba(119, 8, 8, 0.41) 0px 3px 6px;
+}
+.maincontent {
+  justify-self: center;
+  width: 300px;
+  height: 150px auto; /*so the box extends rather than allow the text to go beyond*/
+  padding: 5px;
+  box-shadow: rgba(160, 36, 36, 0.16) 0px 3px 6px, rgba(119, 8, 8, 0.41) 0px 3px 6px;
+  border-radius: 20px;
+  background-image: none;
+  background-color: whitesmoke;
+}
+
+.selection {
+  margin-top: 2vh;
+  border-radius: 2px;
+  background-image: none;
+}
+#userinput {
+  width: 150px;
+  margin-left: 2vw;
+  background-image: none;
+}
+p {
+  margin-left: 20px;
+  background-image: none;
+}
+
+button {
+  justify-self: center;
+  margin-left: 12vw; /*centering the button (or trying to)*/
+  margin-top: 20px;
+  background-image: none;
+}
